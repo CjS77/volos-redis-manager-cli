@@ -1,12 +1,11 @@
 {
   "name": "volos-redis-manager-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A command-line interface to the Volos Redis Management tool",
   "main": "manage.js",
   "scripts": {
     "test": "npm install && A127_APPROOT=test/demo mocha"
   },
-  "readme": "README.md",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/CjS77/volos-redis-manager-cli.git"

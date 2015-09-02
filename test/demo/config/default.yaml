@@ -1,0 +1,7 @@
+apiEncryptionKey: abcdefg123456
+redis-host: 127.0.0.1
+redis-port: 30876
+redis-db: 8
+
+
+

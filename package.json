@@ -1,0 +1,41 @@
+{
+  "name": "volos-redis-manager-cli",
+  "version": "0.0.1",
+  "description": "A command-line interface to the Volos Redis Management tool",
+  "main": "manage.js",
+  "scripts": {
+    "test": "npm install && A127_APPROOT=test/demo mocha"
+  },
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CjS77/volos-redis-manager-cli.git"
+  },
+  "keywords": [
+    "volos",
+    "cli",
+    "node",
+    "swagger"
+  ],
+  "author": "Cayle Sharrock",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CjS77/volos-redis-manager-cli/issues"
+  },
+  "homepage": "https://github.com/CjS77/volos-redis-manager-cli#readme",
+  "dependencies": {
+    "a127-magic": "^0.11.0",
+    "commander": "^2.8.1",
+    "inquirer": "^0.9.0",
+    "js-yaml": "^3.4.0",
+    "q": "^1.4.1",
+    "volos-management-redis": "^0.9.9",
+    "volos-oauth-redis": "^0.11.4"
+  },
+  "devDependencies": {
+    "bdd-stdin": "^0.2.0",
+    "expect": "^1.9.0",
+    "mocha": "^2.2.5",
+    "redis": "^1.0.0"
+  }
+}

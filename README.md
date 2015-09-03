@@ -36,16 +36,22 @@ specific app data is irrelevant for the tests.
 
 Usage: [node-env options] node manage.js [options] [command]
 
-  Commands:
-    addDev                       Add a new developer account
-    getDev [id]                  Get developer account info
-    delDev [id]                  Delete developer account info
-    addApp                       Add a new Application
-    getDevApp [email] [appName]  Get an application based on user email and Application name
+Commands:
 
-  Options:
-    -h, --help     output usage information
-    -V, --version  output the version number
+| Command | Parameters | Description |
+|---------|------------|-------------|
+|addDev   |            |  Add a new developer account |
+|getDev   | [id]       |  Get developer account info
+|delDev   | [id]       |  Delete developer account info |
+|addApp   |            |  Add a new Application |
+|getDevApp| [email] [appName]|  Get an application based on user email and Application name |
+
+Options:
+
+| Short | Long     | Description |
+|-------|----------|-------------|
+|    -h | --help   |  output usage information |
+|   -V  | --version |  output the version number |
 
 All parameters following the commands are optional. If they are omitted, the user will be prompted to supply the data.
 If you are not running the module from your swagger app's root directory, you can specify it with the `A127_ROOT` environment

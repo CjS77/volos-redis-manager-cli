@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd builds/cayle/volos-redis-manager-cli
+cd /builds/cayle/volos-redis-manager-cli
 npm install && \
 cat <<EOF > test/demo/config/default.yaml
   redis-port: $REDIS_PORT_6379_TCP_PORT

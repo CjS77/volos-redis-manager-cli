@@ -2,7 +2,9 @@ image: node:0.12
 services:
   - redis:2.8
 before_script:
-  - /bin/bash build_scripts/docker_build.sh
+  - cd /builds/cayle/volos-redis-manager-cli
+  - npm install
+  - cp build_scripts/default.yaml test/demo/config/
 
 test:
   script:

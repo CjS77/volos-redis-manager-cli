@@ -1,3 +1,5 @@
+[![build status](https://ci.gitlab.com/projects/6937/status.png?ref=master)](https://ci.gitlab.com/projects/6937?ref=master)
+
 # Volos-Redis-Manager-CLI
 
 A command-line interface to the Volos Redis Management tool.

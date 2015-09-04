@@ -3,14 +3,14 @@ services:
   - redis:2.8
 test:
   script:
-    - cd /builds/cayle/volos-redis-manager-cli
-    - echo "apiEncryptionKey: abcdefg123456" > test/demo/config/default.yaml
-    - echo "redis-host: $REDIS_PORT_6379_TCP_ADDR" >> test/demo/config/default.yaml
-    - echo "redis-port: $REDIS_PORT_6379_TCP_PORT" >> test/demo/config/default.yaml
-    - echo "redis-db: 0" >> test/demo/config/default.yaml
-    - cat test/demo/config/default.yaml
-    - env
-    - npm install && npm test
+  - cd /builds/cayle/volos-redis-manager-cli
+  - "echo apiEncryptionKey: abcdefg123456 > test/demo/config/default.yaml"
+  - "echo redis-host: $REDIS_PORT_6379_TCP_ADDR >> test/demo/config/default.yaml"
+  - "echo redis-port: $REDIS_PORT_6379_TCP_PORT >> test/demo/config/default.yaml"
+  - "echo redis-db: 0 >> test/demo/config/default.yaml"
+  - cat test/demo/config/default.yaml
+  - env
+  - npm install && npm test
 
 
 

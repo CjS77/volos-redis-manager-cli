@@ -1,7 +1,0 @@
-apiEncryptionKey: abcdefg123456
-redis-host: redis
-redis-port: $REDIS_PORT_6379_TCP_PORT
-redis-db: 1
-
-
-
